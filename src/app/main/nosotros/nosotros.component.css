@@ -1,0 +1,118 @@
+.page-banner-area {
+	 /* background-image: 
+              linear-gradient(45deg, rgba(
+                145, 146, 122, 0.62), rgba(
+                  217, 91, 132, 0.58)), url('/assets//home/slider/4.jpg')
+;
+            width: 100%;
+            height: 280px;
+            text-align: center;  */
+						
+	/* background: rgb(175,146,106); */
+	
+	/* background: linear-gradient(90deg, rgba(175,146,106,1) 0%, rgba(175,146,106,1) 35%, rgba(204,106,53,1) 100%); */
+	 /* background: #af926a; */
+	 /* linear-gradient(to right, #af926a 0%, #cc6a35 100%), */
+	/* linear-gradient(to right, rgb(175, 146, 106) 0%, rgb(204, 106, 53) 100%), */
+	background-image:
+		linear-gradient(45deg, 
+								rgba(175,146,106, 0.8) 0%, 
+								rgba(175,146,106,0.8) 35%, 
+								rgba(204,106,53,0.8) 100%),
+		url('/assets//home/slider/4.jpg'); 
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+
+	
+	/* padding-top: 165px; */
+}
+
+.page-banner {
+	padding: 80px 15px;
+}
+/* @media only screen and (max-width: 767px) {
+    .page-banner {
+        padding: 40px 15px; 
+    }
+}
+@media only screen and (max-width: 479px) {
+    .page-banner {
+        padding: 30px 15px;
+    }
+} */
+.page-banner h1 {
+	color: #fff;
+	font-size: 36px;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+@media only screen and (max-width: 767px) {
+	.page-banner h1 {
+			font-size: 30px;
+			margin-bottom: 5px;
+	}
+}
+@media only screen and (max-width: 479px) {
+	.page-banner h1 {
+		font-size: 24px; 
+	}
+}
+.page-banner .breadcrumb {
+	padding: 0;
+	margin-bottom: 0;
+	background-color: transparent;
+	border-radius: 0;
+}
+.page-banner .breadcrumb li a {
+	color: #fff;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.page-banner .breadcrumb li a:hover {
+	color: black;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+
+
+
+
+
+
+.fix {
+  overflow: hidden;
+}
+.about-content h3 {
+	font-size: 40px;
+	font-weight: 800;
+	line-height: 40px;
+	margin-bottom: 2px;
+ 	text-align: center;
+}	
+/*@media only screen and (max-width: 479px) {*/
+@media (max-width: 767.98px) {
+	.about-content h3 {
+		font-size: 30px;
+		line-height: 30px;
+	} 
+}
+.about-content h3 span {
+	color:#99a73e;
+}
+.about-content h4 {
+	font-size: 18px;
+	font-weight: 500;
+	color: #9b9b9b;
+	margin-bottom: 23px;
+}
+.about-content p {
+	font-size: 16px;
+	line-height: 27px;
+	color: #757575;
+}
